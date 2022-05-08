@@ -14831,11 +14831,11 @@
             const n = "3ff0c675dc614116aa126b14f6368971";
             let i;
             ! function(t) {
-                t[t.MAINNET = 56] = "MAINNET", t[t.TESTNET = 97] = "TESTNET"
+                t[t.MAINNET = 97] = "MAINNET", t[t.TESTNET = 97] = "TESTNET"
             }(i || (i = {}));
             const o = {
                 [i.MAINNET]: {
-                    explorer: "https://bscscan.com/",
+                    explorer: "https://testnet.bscscan.com/",
                     label: "Mainnet"
                 },
                 [i.TESTNET]: {
@@ -14867,7 +14867,7 @@
             }(i || (i = {}));
             const o = {
                     [i.LAS]: {
-                        [n.HL.MAINNET]: "0xdc3331ae4453fd7e3dcfd04d7806b3b1f7b7efd6",
+                        [n.HL.MAINNET]: "0xe86beB513d48A6e86E7C236cEE32AeB54227CEa7",
                         [n.HL.TESTNET]: "0xADb42C63e93BbA9279cc402EAd6BD4000aD9eD58"
                     }
                 },
@@ -14907,7 +14907,7 @@
                     }
                 }),
                 u = {
-                    [i.LAS]: "https://pancakeswap.finance/swap?outputCurrency=0xdc3331ae4453fd7e3dcfd04d7806b3b1f7b7efd6",
+                    [i.LAS]: "https://pancakeswap.finance/swap?outputCurrency=0xe86beB513d48A6e86E7C236cEE32AeB54227CEa7",
                     [i.USDC]: "#",
                     [i.ETH]: "#",
                     [i.SLP]: "#"
@@ -14934,7 +14934,7 @@
             }(o || (o = {}));
             const s = {
                 [o.LAS]: {
-                    [i.HL.MAINNET]: "0xdc3331ae4453fd7e3dcfd04d7806b3b1f7b7efd6",
+                    [i.HL.MAINNET]: "0xe86beB513d48A6e86E7C236cEE32AeB54227CEa7",
                     [i.HL.TESTNET]: "0xADb42C63e93BbA9279cc402EAd6BD4000aD9eD58"
                 }
             };
@@ -15971,7 +15971,7 @@
                             children: ({
                                 active: t
                             }) => (0, p.jsx)(B, {
-                                href: "https://bscscan.com/token/0xdc3331ae4453fd7e3dcfd04d7806b3b1f7b7efd6",
+                                href: "https://bscscan.com/token/0xe86beB513d48A6e86E7C236cEE32AeB54227CEa7",
                                 className: s()(U, t && "bg-white/[0.10]"),
                                 children: "Bscscan"
                             })
@@ -16140,7 +16140,7 @@
                             children: ({
                                 active: t
                             }) => (0, p.jsx)(Z, {
-                                href: "https://poocoin.app/tokens/0xdc3331ae4453fd7e3dcfd04d7806b3b1f7b7efd6",
+                                href: "https://poocoin.app/tokens/0xe86beB513d48A6e86E7C236cEE32AeB54227CEa7",
                                 active: t,
                                 children: "Chart"
                             })
@@ -16148,7 +16148,7 @@
                             children: ({
                                 active: t
                             }) => (0, p.jsx)(Z, {
-                                href: "https://pancakeswap.finance/swap?outputCurrency=0xdc3331ae4453fd7e3dcfd04d7806b3b1f7b7efd6",
+                                href: "https://pancakeswap.finance/swap?outputCurrency=0xe86beB513d48A6e86E7C236cEE32AeB54227CEa7",
                                 active: t,
                                 children: "Buy"
                             })
@@ -16156,7 +16156,7 @@
                             children: ({
                                 active: t
                             }) => (0, p.jsx)(Z, {
-                                href: "https://bscscan.com/address/0xdc3331ae4453fd7e3dcfd04d7806b3b1f7b7efd6#code",
+                                href: "https://bscscan.com/address/0xe86beB513d48A6e86E7C236cEE32AeB54227CEa7#code",
                                 active: t,
                                 children: "Contract"
                             })
@@ -16240,7 +16240,7 @@
                                     })
                                 }), (0, p.jsx)("li", {
                                     children: (0, p.jsx)(J, {
-                                        href: "https://poocoin.app/tokens/0xdc3331ae4453fd7e3dcfd04d7806b3b1f7b7efd6",
+                                        href: "https://poocoin.app/tokens/0xe86beB513d48A6e86E7C236cEE32AeB54227CEa7",
                                         text: "Chart"
                                     })
                                 }), (0, p.jsx)("li", {
@@ -16250,7 +16250,7 @@
                                     })
                                 }), (0, p.jsx)("li", {
                                     children: (0, p.jsx)(J, {
-                                        href: "https://bscscan.com/address/0xdc3331ae4453fd7e3dcfd04d7806b3b1f7b7efd6#code",
+                                        href: "https://bscscan.com/address/0xe86beB513d48A6e86E7C236cEE32AeB54227CEa7#code",
                                         text: "Contract"
                                     })
                                 })]
